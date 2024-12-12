@@ -1,0 +1,383 @@
+* {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+/* 
+body{
+    width: fit-content;
+} */
+.main4 {
+    background-color: black;
+}
+
+.main {
+    height: 781px;
+    position: relative;
+    background-position: center center;
+    background-size: max(2200px, 100vw);
+    background-repeat: no-repeat;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/bfc0fc46-24f6-4d70-85b3-7799315c01dd/web/IN-en-20240923-TRIFECTA-perspective_74e21c19-980e-45ef-bd6c-78c1a6ce9381_large.jpg);
+}
+
+select {
+    padding: 3px;
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    filter: opacity(100%);
+    background: transparent;
+    width: 124px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+option {
+    color: black;
+}
+
+option:hover {
+    background-color: black;
+    color: white;
+}
+
+.box img {
+    margin: 15px;
+    height: 42px;
+    width: auto;
+}
+
+.main .box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .box div {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.button1 img {
+    height: 17px;
+    margin-right: 0;
+}
+
+.button1 {
+
+    color: white;
+
+    width: 124px;
+    height: 22px;
+    border-radius: 6px;
+    padding: 0;
+    margin: 0;
+}
+
+.button2 {
+    justify-content: center;
+    font-size: small;
+    margin-left: 20px;
+    box-sizing: border-box;
+    width: 90px;
+    height: 32px;
+    color: white;
+    font-weight: 600;
+    background-color: red;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover .button2 {
+    background-color: rgb(201, 7, 7);
+}
+
+
+.main2 {
+    height:681px;
+    position: relative;
+    padding: 0 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 25px;
+}
+
+.one {
+    display: flex;
+    text-align: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.two {
+    font-size: large;
+    font-weight: bold;
+}
+
+form {
+    margin-right: 20px;
+}
+
+.main3 {
+    display: flex;
+
+}
+
+input[type="text" i] {
+    font-weight: 600;
+    padding-left: 20px;
+    font-size: medium;
+    color: white;
+    border-radius: 4px;
+    background-color: #222020;
+    border: 1px solid rgb(92 84 84);
+    width: 400px;
+    height: 56px;
+
+}
+
+.getstarted {
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    font-size: 21px;
+    border: 1px rgb(0, 0, 0);
+    background-color: red;
+    color: rgb(255, 255, 255);
+    width: 165.250px;
+    height: 32px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 7px;
+
+}
+
+.getstarted:hover {
+    background-color: rgb(182, 6, 6);
+}
+
+
+.getstarted img {
+    height: 19px;
+    margin-left: 9px;
+}
+
+.main3 {
+    display: flex;
+}
+
+::placeholder {
+    transition: transform 0.2s ease-in-out;
+    transform: translateY(1) scaleY(1);
+}
+
+input.focused::placeholder {
+    transform: translateY(-15px) scaleY(0.9);
+}
+
+.line {
+    box-sizing: border-box;
+    height: 15px;
+    background-color: rgb(53, 49, 49);
+}
+
+.movieslist div {
+    width: 189px;
+    height: 265px;
+    border-radius: 10px;
+
+
+}
+
+.movie {
+    transform: scale(1);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+
+.box:hover .movie {
+    transform: scale(1.17);
+}
+
+
+.movieslist {
+    margin: auto;
+    overflow: auto;
+    display: grid;
+    width: 53vw;
+    height: 35vh;
+    grid-template-columns: repeat(10, 249px);
+    column-gap: 5px;
+
+    justify-items: center;
+    align-content: center;
+}
+
+.movie div {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    bottom: -120px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    left: -20px;
+    font-size: 106px;
+}
+
+.main5 {
+    margin: auto;
+    width: 60vw;
+    height: auto;
+}
+
+.main5 h1 {
+    color: white;
+    padding: 25px;
+}
+
+.list ol {
+    display: flex;
+    justify-content: center;
+}
+
+.list ol li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    width: 349px;
+    list-style: none;
+    margin: 12px 0 0 12px;
+    border-radius: 9px;
+    height: 270px;
+    color: white;
+}
+.list ol li div {
+    margin: 25px;
+    font-size: 21px;
+
+}
+
+.list ol li p {
+    margin: 25px;
+    color: rgb(138, 130, 130);
+    font-size: 14px;
+}
+
+.main6 {
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.main6 h1 {
+    color: white;
+    margin: 15px auto 15px auto;
+    /* text-align: center; */
+    max-width: 60vw;
+    font-size: 40px;
+}
+
+.main6 li {
+    display: flex;
+    list-style: none;
+    margin: 15px;
+    max-width: 60vw;
+    height: 84px;
+    background-color: rgb(49, 45, 45);
+    margin: 15px auto 15px auto;
+    color: white;
+    font-size: 27px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main6 li div {
+    margin: 20px;
+}
+
+.main6 li div:nth-child(2) {
+    font-size: 45px;
+    margin: 15px 20px 25px 20px;
+}
+
+.main6 ul li:hover {
+    background-color: rgb(66, 63, 63);
+    transition: all 1s ease-out;
+}
+
+.main7 {
+    width: 700px;
+    margin: 50px auto 0px auto;
+}
+
+.main8 {
+    display: flex;
+
+}
+
+.main7 .last {
+    color: white;
+    margin: 15px auto 15px auto;
+    text-align: center;
+}
+
+.main8 div:first-child {
+    margin-right: 20px;
+}
+
+.main9 div:first-child {
+    color: rgb(134, 129, 129);
+    font-size: larger;
+    width: 1200px;
+    margin: 25px auto 20px auto;
+}
+
+.gridbox {
+    margin: auto;
+    max-width: 60vw;
+    justify-content: center;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 301px);
+    row-gap: 15px;
+    /* grid-template-rows: repeat(4, 25px); */
+    justify-items: left;
+}
+
+.main9 a {
+    box-sizing: border-box;
+    width: 290px;
+    color: rgb(134, 129, 129);
+}
+
+.main9 div:first-child a {
+    text-decoration: underline;
+}
+
+.main10 {
+    color: grey;
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+}
+
+
+.main10 .button_last {
+    margin: 25px 25px 25px 25px;
+}
+
+.main10 div:last-child {
+    margin: 60px 25px 25px 25px;
+}

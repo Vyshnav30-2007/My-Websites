@@ -1,0 +1,371 @@
+body {
+    width: 96vw;
+    margin: 0 auto;
+    overflow-x:hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    color: #111111;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.header1 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 18px;
+    height: 100vh;
+}
+
+.header1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    height: 34px;
+}
+
+.header1options li:hover {
+    color: rgb(112, 112, 114);
+}
+
+.header1options {
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    padding-right: 18px;
+    width: 262px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 64px;
+    align-items: center;
+}
+
+.logo2 {
+    width: 301px;
+}
+
+.logo2 img {
+    padding-left: 16px;
+    scale: 3;
+}
+
+.search div,
+img {
+    margin-right: 10px;
+}
+
+
+.header2options li:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
+.header2options {
+    font-size: 17px;
+    line-height: 24px;
+    list-style-type: none;
+    height: 64px;
+    width: 445px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search {
+    width: 301px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Container styling */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 24px;
+    padding: 5px 10px;
+    width: 168px;
+    height: 23px;
+}
+
+/* Input field styling */
+.search-bar input {
+    border: none;
+    background-color: #f5f5f5;
+    padding: 8px;
+    width: 30px;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+}
+
+/* Button styling */
+.search-bar img {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    color: #555;
+}
+
+/* Input field placeholder color */
+.search-bar input::placeholder {
+    color: #aaa;
+    /* Light gray color for placeholder text */
+}
+
+.header3 {
+    height: 77px;
+    background-color: #f5f5f5;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.textcontainer {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    align-items: center;
+    
+}
+
+.textunderline {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    
+}
+
+.text2 {
+    opacity: 0;
+}
+
+.text-slide {
+    width: 476px;
+    display: flex;
+    position: absolute;
+    color: white;
+    white-space: nowrap;
+    transition: transform 1s ease-in-out;
+    left: 37.4%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nikeshoes1 {
+    cursor: pointer;
+    margin-bottom: 35px;
+    row-gap: 19px;
+    width: 100.59%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nikeshoes1 img {
+    height: 80vh;
+    width: -webkit-fill-available;
+}
+
+.pictext1 {
+    font-family: emoji;
+    font-weight: bolder;
+    font-size: 88px;
+}
+
+.pictext2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.pictext3 {
+    font-weight: bold;
+    padding: 11px 14px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 70px;
+}
+
+.pictext3:hover {
+    color: #000000;
+    background-color: #fff7f7;
+    box-shadow: 0px 0px 20px 11px gold;
+}
+
+.picturegrid {
+    display: grid;
+    height: 750px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    overflow-x:auto;
+    overflow-y: hidden;
+}
+
+.picturegrid div {
+    
+    position: relative;
+}
+
+.picturegrid div img {
+    width: 600px;
+    height: 736px;
+}
+
+.matter {
+    font-size: 25px;
+    margin-bottom: 12px;
+    color: white;
+    width: 305px;
+    left: 30px;
+    bottom: 126px;
+}
+
+.shop {
+    text-align: center;
+    padding: 9px 0;
+    font-size: 17px;
+    border-radius: 50px;
+    color: black;
+    width: 120px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.shop:hover {
+    background-color: #dad9d9;
+}
+
+
+.shoeslist-wrapper{
+    width: 102vw;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.shoeslist{
+    display: flex;
+    transition: transition 0.3s ease-in-out;
+}
+
+
+.shoeslist div {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.shoeslist div  img {
+    width: 490px;
+    height: 496px;
+}
+
+.container {
+    width: 102vw;
+    margin: 40px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -65px;
+}
+
+.button {
+    position: sticky;
+    font-size: 20px;
+    display: flex;
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#prevbtn {
+    left: 68px;
+}
+
+#nextbtn {
+    right: 68px;
+
+}
+
+.button div {
+    font-size: xx-large;
+    position: relative;
+    bottom: 5px;
+    left: -2px;
+}
+
+.button:hover {
+    background-color: rgb(186, 185, 185);
+}
+.container2{
+    width: 50vw;
+    height: 100vh;
+    background-color: black;
+}
+.shoefootball img{
+    height: 80vh;
+    width: -webkit-fill-available;
+}
+.shoefootball{
+    row-gap: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.typesofshoeslist img{
+    width: 490px;
+    height: 460px;
+}
+.typesofshoeslist{
+    display: flex;
+    overflow-x: scroll;
+}
+.upperheader{
+    display: flex;
+}
